@@ -1,5 +1,5 @@
 <?php
-$uri = $_GET['i'];
+$uri = $_GET['l'];
 echo $uri;
 $db = mysqli_connect('127.0.0.1','root','ttt','urishortner');
 if($db)
